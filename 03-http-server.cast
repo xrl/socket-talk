@@ -1,0 +1,12 @@
+{"version": 2, "width": 80, "height": 20, "timestamp": 1670532549, "env": {"SHELL": "/bin/sh", "TERM": "xterm-256color"}}
+[0.009523, "o", "\u001b[?1034hsh-3.2# "]
+[0.395773, "o", "while ruby 03-http-server.rb ; do echo \"a request was handled\"; sleep 1; \r done"]
+[1.490249, "o", "\r\n"]
+[3.294151, "o", "a request was handled\r\n"]
+[5.424275, "o", "a request was handled\r\n"]
+[7.583252, "o", "a request was handled\r\n"]
+[8.990726, "o", "^C"]
+[8.992205, "o", "\u001b[1mTraceback\u001b[m (most recent call last):\r\n\t3: from 03-http-server.rb:3:in `<main>'\r\n\t2: from 03-http-server.rb:3:in `open'\r\n\t1: from 03-http-server.rb:4:in `block in <main>'\r\n03-http-server.rb:4:in `accept': \u001b[1;4mInterrupt\u001b[m\r\n"]
+[8.996738, "o", "\r\n"]
+[8.9969, "o", "sh-3.2# "]
+[9.554984, "o", "exit\r\n"]
